@@ -4,23 +4,33 @@ Para ejecutar este codigo toca tener intalado Flask de no tenerlo ejecutar pip i
 
 Ejecutar el codigo es: python app.py
 
-Puede hacer pruebas en postman 
+Puede hacer pruebas en postman:
+
 Get(Consulta): 
+
 GET /producto/{id_producto}
+
 ejemplo para postman: http://127.0.0.1:5000/producto
+
 Body (JSON):
 {
   "id_producto": 2,
 }
+
 Post(Agregar):
+
 ejemplo para postman: http://127.0.0.1:5000/producto
+
 Body (JSON):
 {
   "id_producto": 3,
   "cantidad": 15
 }
+
 Put(Actualizar):
+
 ejemplo para postman: http://127.0.0.1:5000/producto
+
 Body (JSON):
 {
   "id_producto": 3
